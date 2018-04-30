@@ -1,0 +1,63 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="Ps4.com" resolutions="1x" timestamp="1525124055284">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4073581193" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="backup.png" crc="4176295803" seo="true" mt="1525119990000"/>
+    <file name="browser-enable.png" crc="4168790317" seo="true" mt="1525120143000"/>
+    <file name="cheater.png" crc="3895574697" seo="true" mt="1525120194000"/>
+    <file name="ftp.png" crc="5871427" seo="true" mt="1525120038000"/>
+    <file name="update-blocker.png" crc="430479136" seo="true" mt="1525120430000"/>
+    <file name="update-unblocker.png" crc="511811685" seo="true" mt="1525120592000"/>
+    <file name="vr.png" crc="341203653" seo="true" mt="1525120345000"/>
+    <file name="vtx.png" crc="3819272973" seo="true" mt="1525119744000"/>
+    <file name="index.html" crc="309229306" seo="true" mt="1521213844000"/>
+    <file name="index2.html" crc="396572841" seo="true" mt="1523877658000"/>
+    <file name="index3.html" crc="407938819" seo="true" mt="1521213902000"/>
+    <file name="index4.html" crc="4000332548" seo="true" mt="1521317174000"/>
+    <file name="index5.html" crc="4058253375" seo="true" mt="1521317154000"/>
+    <file name="index6.html" crc="263052296" seo="true" mt="1521213782000"/>
+    <file name="index7.html" crc="3979803418" seo="true" mt="1521213736000"/>
+    <file name="index8.html" crc="3862396116" seo="true" mt="1521213770000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="backgound.jpg" crc="4232948002" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vtx.jpg" crc="114400510" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cheater.jpg" crc="347974217" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="update blocker.png" crc="430479136" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vr.png" crc="341203653" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="backup.jpg" crc="491648720" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="update unblocker.png" crc="511811685" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ftp.jpg" crc="3896564782" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="browser enable.jpg" crc="4259422365" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u227-4.png" crc="3953443121" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4208290795" seo="true" mt="1525123996043" redirect="true"/>
+</manifest>
