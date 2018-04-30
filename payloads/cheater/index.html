@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PS4CHEATER 4.55</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: -75px 0 0 -75px;
+
+      border: 10px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 10px solid #ff0000;
+      border-bottom: 10px solid #ff0000;
+
+      width: 120px;
+      height: 120px;
+
+      -webkit-animation: spin 1s linear infinite;
+    }
+
+    .info {
+      overflow: hidden;
+      position: fixed;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      font-size: 45px;
+      font-family: sans-serif;
+
+      transform: translate(-50%, -50%);
+    }
+
+    .credits {
+      overflow: hidden;
+      position: fixed;
+      position: absolute;
+      top: 90%;
+      left: 50%;
+
+      font-size: 20px;
+      font-family: sans-serif;
+      text-align: center;
+
+      transform: translate(-50%, -90%);
+    }
+
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(720deg); }
+    }
+  </style>
+</head>
+
+<body onload="runExploit()" style="margin:0;">
+  <div id="loader" class="loader"></div>
+
+  <div id="allset" class="info" style="display:none;">
+    Success! :)
+  </div>
+
+  <div id="fail" class="info" style="display:none;">
+    Try again! :(
+  </div>
+
+  <div id="badfw" class="info" style="display:none;">
+    Built for 4.55 only!
+  </div>
+
+  <div id="footer" class="credits">
+    <ul style="list-style: none;padding-left:0">
+      <li>qwertyoruiopz</li>
+      <li>flatz</li>
+      <li>specter</li>
+      <li>anonymous contributors</li>
+      <li>kiiwii</li>
+      </ul>
+  </div>
+
+  <script>
+    function runExploit() {
+      setTimeout(exploit, 1500);
+    }
+
+    function allset() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("allset").style.display = "block";
+    }
+
+    function fail(info) {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("fail").style.display = "block";
+
+      alert(info)
+    }
+  </script>
+
+  <script src="rop.js"></script>
+  <script src="syscalls.js"></script>
+  <script src="payload.js"></script>
+  <script src="loader.js"></script>
+  <script src="userland.js"></script>
+  <script src="kernel.js"></script>
+</body>
+</html>
